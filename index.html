@@ -4,6 +4,7 @@
             Kabir Chat Bot
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Syne:wght@800&display=swap');
             body{
@@ -25,40 +26,30 @@ filter: blur(200px);
 
             }
 .ecimg{
-    position: absolute;
-    top:90px;
-    left:800px ;
-    width:340px;
+
+    width:300px;
 }
 .botname{
-width: 517px;
-height: 100px;
+
 
 
 font-family: 'Syne';
 font-style: normal;
 font-weight: 800;
-font-size: 100px;
-line-height: 100%;
-/* identical to box height, or 100px */
-
-text-align: center;
+font-size: 50px;
 
 color: #FFFFFF;
 
 
 }
 .botdesc{
-width: 581px;
-height: 52px;
 font-family: 'Golos Text', sans-serif;
 font-style: normal;
-font-weight: 400;
-font-size: 27px;
-line-height: 26px;
-/* or 96% */
+font-size: 18px;
+width:80%;
 
-margin-top: -80px;
+
+margin-top: -20px;
 color: rgba(255, 255, 255, 0.7);
 
 }
@@ -74,10 +65,6 @@ align-items: center;
 padding: 16px 44px;
 gap: 10px;
 
-left: 9.24%;
-right: 66.94%;
-top: 57.42%;
-bottom: 37.3%;
 background: #FFFFFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 8px;
@@ -102,6 +89,7 @@ background: url('kabir.png');
     width: 100%;
     display: block;
     padding: 10px;
+    margin-top: 10px;
 
 }
 .navlogo{
@@ -129,6 +117,52 @@ a{
     float: right;
     margin-right:30px;
 }
+.row{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width:90%;
+}
+.col{
+    width: 100%;
+    margin-top: 40px;
+}
+.left{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1020px)  {
+    .wabtn{
+        display: none;
+    }
+    }
+@media only screen and  (max-width:740px) {
+    .navlogo{
+    width:175px;
+    margin-left: 10px;
+    font-family: 'Golos Text', sans-serif;
+    
+}
+    .wabtn{
+        display: none;
+    }
+
+    a{
+        display: none;
+    }
+    .profile{
+        display: none;
+    }
+    .usrtxt{
+        display: none;
+    }
+    .ec{
+        display: none;
+    }
+
+}
+
 
 
 </style>
@@ -141,10 +175,13 @@ a{
             <button class="wabtn">Chat on Whatsapp</button>
 
         </div>
-    <div class="lft">
+
+    <div class="col">
+    <div class="w3-row row">
+    <div class="w3-half left">
     <div >
-        <p class="botname">KABIR</p>
-        <P class="botdesc">Knowledgeable Artificial Intelligence Bot for Investigating and Resolving cybercrimes</P>
+        <span class="botname">KABIR</span><br><br>
+        <p class="botdesc">Knowledgeable Artificial Intelligence Bot for Investigating and Resolving cybercrimes</p>
         <button class="botbtn">GET STARTED</button>
     </div>
     <div>
@@ -164,11 +201,15 @@ a{
     </div>
 </div>
     
-    <div class="right">
+    <div class="right w3-half">
+        <center>
         <img class="ecimg" src="kabir.png">
+    </center>
         <div class="ec">
         </div>
     </div>
+</div>
+</div>
 
     </body>
     
