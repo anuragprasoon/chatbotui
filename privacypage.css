@@ -17,13 +17,16 @@ padding: 10px;
     
     
 }
-a{
+.a{
     text-decoration: none;
     color:black;
     font-family: 'Golos Text', sans-serif;
     margin-left:36px;
     padding: 10px;
     display: inline-block;
+}
+a{
+    text-decoration: none;
 }
 .wabtn{
     padding: 16px;
@@ -68,8 +71,7 @@ a{
 }
 .title{
 font-family: Syne;
-font-size: 2em;
-font-weight: 300;
+font-size: 40px;
 line-height: 64px;
 letter-spacing: 0px;
 text-align: center;

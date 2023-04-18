@@ -3,10 +3,11 @@
         <title>
             Kabir Chat Bot
         </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Syne:wght@800&display=swap');
             body{
-                background: #011AFC;
+                background: #011bfe;
 
             }
             .ec{
@@ -16,7 +17,7 @@
 position: absolute;
 width: 340px;
 height: 340px;
-left: 650px;
+left: 800px;
 top: 264px;
 
 background: #000000;
@@ -64,7 +65,8 @@ color: rgba(255, 255, 255, 0.7);
 .botbtn{
 margin-top: 40px;
 border-style: none;
-font-family: 'Golos Text', sans-serif;
+font-family: 'Syne';
+font-style: normal;
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -76,7 +78,6 @@ left: 9.24%;
 right: 66.94%;
 top: 57.42%;
 bottom: 37.3%;
-width:220px;
 background: #FFFFFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 8px;
@@ -90,11 +91,10 @@ border-radius: 8px;
     margin-left: 80px;
 }
 .profile{
-    position: absolute;
-width: 50px;
-height: 50px;
-left: 133px;
-top: 811px;
+
+    width: 50px;
+    height: 50px;
+ 
 
 background: url('kabir.png');
 }
@@ -129,13 +129,15 @@ a{
     float: right;
     margin-right:30px;
 }
-        </style>
+
+
+</style>
     </head>
     <body>
         <div class="navbar">
             <img class="navlogo" src="logo.png">
-            <a href="">About</a>
-            <a href="">Privacy Policy</a>
+            <a href="aboutpage.html">About</a>
+            <a href="privacypage.html">Privacy Policy</a>
             <button class="wabtn">Chat on Whatsapp</button>
 
         </div>
@@ -146,15 +148,23 @@ a{
         <button class="botbtn">GET STARTED</button>
     </div>
     <div>
-        <p class="usrtxt">Already helped more than 1000+ users 💙</p>
-        <div>
-            <div class="profile"></div>
-        </div>
+        <p class="usrtxt">Already helped more than 1000+ users 💙
+            <div class="users" >
+                <img class="profile"src="dp.png">
+                <img class="profile"src="dp.png">
+                <img class="profile"src="dp.png">
+                <img class="profile"src="dp.png">
+                <img class="profile"src="dp.png">
+                <img class="profile"src="dp.png">
+            </div>
+        </p>
+    
+
         
     </div>
 </div>
     
-    <div>
+    <div class="right">
         <img class="ecimg" src="kabir.png">
         <div class="ec">
         </div>

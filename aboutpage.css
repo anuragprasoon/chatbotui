@@ -13,17 +13,20 @@ padding: 10px;
     margin-left: 70px;
     font-family: 'Golos Text', sans-serif;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 5px;
     
     
 }
-a{
+.a{
     text-decoration: none;
     color:black;
     font-family: 'Golos Text', sans-serif;
     margin-left:36px;
     padding: 10px;
     display: inline-block;
+}
+a{
+    text-decoration: none;
 }
 .wabtn{
     padding: 16px;
@@ -59,3 +62,67 @@ a{
     border-radius: 8px;
     margin-right: 10px;
     }
+.ecimg{
+    width:200px;
+    margin-left: 10%;
+}
+.card{
+    background:#011bfe;
+    width:250px;
+    border-radius: 20px;
+    margin-top: 100px;
+    height: 250px;
+    margin-left: 7%;
+    margin-top: -200px;
+
+}
+.right{
+    padding: 40px;
+}
+.col{
+    margin-top: 50px;
+    margin-left: 7%;
+    height: fit-content;
+}
+.left{
+    padding: 10px;
+    height: auto;
+}
+.botdesc{
+    width: 90%;
+    font-family: 'Golos Text', sans-serif;
+    font-style: normal;
+    height: auto;
+}
+.botname{ 
+    
+ }
+.subtxt{
+    font-family: 'Syne';
+    font-style: normal;
+    color: #011bfe;
+    font-size: 30px;
+}
+.txt{
+    font-family: 'Syne';
+    font-style: normal;
+    color: #011bfe;
+    font-size:60px;
+}
+@media only screen and (max-width: 1020px)  {
+    .wabtn{
+        display: none;
+    }
+    }
+@media only screen and  (max-width:740px) {
+    .wabtn{
+        display: none;
+    }
+    .botbtn{
+        display: none;
+    }
+    .a{
+        display: none;
+    }
+
+}
